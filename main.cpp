@@ -32,14 +32,5 @@ int main (){
     Tournament tour;    
     Player * grandWinner = tour.run(competitors);
 
-
-
-/*//---------------------------------------------------------- TEST ZONE -------------------------------------------------------------
-    Bureaucrat p1;    Crescendo p2;    Referee ref;
-    Player winner = ref.refGame(p1, p2);
-    ref.did_player1_won() ? winner.className = p1.className : winner.className = p2.className;
-    cout << "\n"+ winner.className + " Wins!" << endl;
-*/
-
-
+    cout << "\n\nGRAND WINNER IS: " + grandWinner->getName();
 }

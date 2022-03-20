@@ -1,12 +1,9 @@
 # include "Referee.h"
-# include <stdlib.h>
-# include <stdio.h>
-# include <iostream>
-# include <string>
+# define game_of_five 5
 
 Player Referee::refGame(Player& p1, Player& p2){
         int points = 0;
-    for (int games = 0; games < 5; games++){
+    for (int games = 0; games < game_of_five; games++){
         std::cout << "\nGame no: ";
         std::cout << games;
 
