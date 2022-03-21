@@ -2,6 +2,6 @@
 
 Crescendo::Crescendo(){
     // Paper, Scissors, Rock
-    Crescendo::makeMove('P', 'S', 'R');
-    Crescendo::setName("Crescendo");
+    makeMove('P', 'S', 'R');
+    setName("Crescendo");
 }

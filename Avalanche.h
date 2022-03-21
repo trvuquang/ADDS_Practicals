@@ -4,7 +4,7 @@
 # include "Player.h"
 class Computer;
 
-class Avalanche : public virtual Computer{
+class Avalanche : public Computer{
     public:    
         Avalanche();
 };

@@ -2,6 +2,6 @@
 
 Toolbox::Toolbox(){
     // Scissors on;l
-    Toolbox::makeMove('S', 'S', 'S');
-    Toolbox::setName ("Toolbox");
+    makeMove('S', 'S', 'S');
+    setName ("Toolbox");
 }

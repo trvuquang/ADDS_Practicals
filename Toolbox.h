@@ -5,7 +5,7 @@
 # include "Player.h"
 class Computer;
 
-class Toolbox : public virtual Computer{
+class Toolbox : public Computer{
     public:
         Toolbox();
 };

@@ -2,6 +2,6 @@
 
 Avalanche::Avalanche(){
     // Rock only
-    Avalanche::makeMove('R', 'R', 'R');
-    Avalanche::setName("Avalanche");
+    makeMove('R', 'R', 'R');
+    setName("Avalanche");
 }

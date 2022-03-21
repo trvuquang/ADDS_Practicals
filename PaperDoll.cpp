@@ -2,6 +2,6 @@
 
 PaperDoll::PaperDoll(){
     // Paper, Scissors, Scissors
-    PaperDoll::makeMove('P', 'S', 'S');
-    PaperDoll::setName("PaperDoll");
+    makeMove('P', 'S', 'S');
+    setName("PaperDoll");
 }

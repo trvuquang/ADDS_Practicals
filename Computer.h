@@ -3,7 +3,7 @@
 # include "Player.h"
 class Player;
 
-class Computer : virtual public Player {
+class Computer : public Player {
     public:
         //Computer();
 };

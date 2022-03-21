@@ -6,7 +6,7 @@
 # include <string>
 class Computer;
 
-class Bureaucrat : public virtual Computer{
+class Bureaucrat : public Computer{
     public:    
         Bureaucrat();
 };

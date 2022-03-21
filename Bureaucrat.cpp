@@ -2,6 +2,6 @@
 
 Bureaucrat::Bureaucrat(){
     // Rock only
-    Bureaucrat::makeMove('P', 'P', 'P');
-    Bureaucrat::setName("Bureaucrat");
+    makeMove('P', 'P', 'P');
+    setName("Bureaucrat");
 }

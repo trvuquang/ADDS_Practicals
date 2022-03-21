@@ -6,7 +6,7 @@
 # include "Player.h"
 class Player;
 
-class Human : virtual public Player {
+class Human : public Player {
     public:
         Human();
 };

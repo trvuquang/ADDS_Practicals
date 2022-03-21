@@ -10,7 +10,7 @@
 # include "Player.h"
 class Computer;
 
-class RandomComputer : public virtual Computer{
+class RandomComputer : public Computer{
     public:
         RandomComputer(){
         char randomMove [3];    

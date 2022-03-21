@@ -35,7 +35,7 @@ Player Referee::refGame(Player& p1, Player& p2){
     // std::cout << "\nFinal score: " + points;
 
     if (points > 0){
-        player1_won = 1;
+        // player1_won = 1;
         std::cout << "\n -(Player1 WON)- ";
         return p1;
     }
@@ -46,13 +46,13 @@ Player Referee::refGame(Player& p1, Player& p2){
     }
 
     else{
-        player1_won = 0;
+        // player1_won = 0;
         std::cout << "\n -(Player2 WON)- ";
         return p2;
     }
 }
 
-
+/*
 bool Referee::did_player1_won(){
     return player1_won;
-}
+}*/
